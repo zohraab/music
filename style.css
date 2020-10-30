@@ -1,0 +1,67 @@
+
+body			{
+	 background-color: rgba(250, 249, 249, 0.199)
+	
+	}
+
+header			{widows: 20%; height:20%;}
+
+.logo			{text-align: left; }
+
+nav				{ float: right; left: -70%; position: relative; font-family: bebas neue;}
+/*Menu*/
+ul				{list-style-type: none; padding: 0; margin: 0px;left: 30%;position: relative;}
+li				{display: block;float: left;padding: 0px 30px; margin: 1px;}
+nav a			{color: #5e5d5d; text-decoration:none; }
+
+.contenant {
+    position: relative;
+    text-align: center;
+    color: white;
+    
+  }
+  
+  .texte_centrer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.myButton {
+	box-shadow: 19px 25px 24px -9px rgba(214, 200, 194, 0.53);
+	background:linear-gradient(to bottom, #92817aa9 5%, #92817A 100%);
+	background-color:#92817aa9;
+	border-radius:14px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:22px 76px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px rgba(146, 129, 122, 0.53);
+}
+.myButton:hover {
+	/* background:linear-gradient(to bottom, rgba(146, 129, 122, 0.53); */
+	background-color:#92817aa9;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+/* texte cour piano */
+.texte_centrer_color   {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+	transform: translate(-30%, -50%);
+	background-color: #92817A;
+	text-align: center;
+
+   
+  }
+ 
+
+/* menu deroulant
+
